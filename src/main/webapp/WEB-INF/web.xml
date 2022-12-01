@@ -1,0 +1,14 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <servlet>
+    <servlet-name>MessageServlet</servlet-name>
+    <servlet-class>com.example.test.MessageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MessageServlet</servlet-name>
+    <url-pattern>/message/*</url-pattern>
+  </servlet-mapping>
+</web-app>
